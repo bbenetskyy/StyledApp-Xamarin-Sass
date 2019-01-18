@@ -92,9 +92,9 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StyledApp_Xamarin_Sass\StyledApp_Xamarin_Sass.csproj">
-      <Project>{BCC04F46-60FA-47C3-A615-B94F439FA54D}</Project>
-      <Name>StyledApp_Xamarin_Sass</Name>
+    <ProjectReference Include="..\StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass.csproj">
+      <Project>{4a16bc40-f537-4202-a2b0-6cd232eb98df}</Project>
+      <Name>StyledApp-Xamarin-Sass</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
