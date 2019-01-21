@@ -30,11 +30,11 @@
                             <StackLayout Padding="10">
                                 <Label Text="{Binding Text}" 
                                         LineBreakMode="NoWrap" 
-                                        Style="{StaticResource ImportantLabel}" 
+                                        StyleId="importantLabel"
                                         FontSize="16" />
                                 <Label Text="{Binding Description}" 
                                         LineBreakMode="NoWrap"
-                                        Style="{StaticResource SharedLabel}"
+                                        StyleId="sharedLabel"
                                         FontSize="13" />
                             </StackLayout>
                         </ViewCell>

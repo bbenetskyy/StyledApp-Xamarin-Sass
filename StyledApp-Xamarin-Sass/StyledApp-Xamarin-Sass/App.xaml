@@ -4,29 +4,7 @@
              x:Class="StyledApp_Xamarin_Sass.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#2196F3</Color>
-            <Color x:Key="AppGrey">#868686</Color>
-            <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
-                <Setter Property="BarTextColor" Value="White" />
-            </Style>
-            <Style TargetType="StackLayout">
-                <Setter Property="BackgroundColor" Value="{StaticResource NavigationPrimary}" />
-            </Style>
-            <Style TargetType="Label" x:Key="WhiteLabel">
-                <Setter Property="TextColor" Value="White"/>
-            </Style>
-            <Style TargetType="Label" BasedOn="{StaticResource WhiteLabel}">
-            </Style>
-            <Style TargetType="Label" x:Key="ImportantLabel" BasedOn="{StaticResource WhiteLabel}">
-                <Setter Property="FontSize" Value="30"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-            </Style>
-            <Style TargetType="Label" x:Key="SharedLabel">
-                <Setter Property="FontSize" Value="8"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="{StaticResource AppGrey}" />
-            </Style>
+            <StyleSheet Source="Styles\app.css" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>
