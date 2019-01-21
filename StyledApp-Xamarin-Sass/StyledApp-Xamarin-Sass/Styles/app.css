@@ -10,15 +10,3 @@ stackLayout {
 label {
   color: white;
 }
-
-#importantLabel {
-  color: white;
-  font-size: 30;
-  font-style: bold;
-}
-
-#sharedLabel {
-  color: #868686;
-  font-size: 8;
-  font-style: bold;
-}

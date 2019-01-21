@@ -4,6 +4,9 @@
              x:Class="StyledApp_Xamarin_Sass.Views.ItemsPage"
               Title="{Binding Title}"
              x:Name="BrowseItemsPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="..\Styles\itemsPage.css"/>
+    </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add" Clicked="AddItem_Clicked">
             <ToolbarItem.Icon>
@@ -27,15 +30,13 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Padding="10">
+                            <StackLayout>
                                 <Label Text="{Binding Text}" 
                                         LineBreakMode="NoWrap" 
-                                        StyleId="importantLabel"
-                                        FontSize="16" />
+                                        StyleId="importantLabel"/>
                                 <Label Text="{Binding Description}" 
                                         LineBreakMode="NoWrap"
-                                        StyleId="sharedLabel"
-                                        FontSize="13" />
+                                        StyleId="sharedLabel"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

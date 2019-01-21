@@ -3,10 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StyledApp_Xamarin_Sass.Views.ItemDetailPage"
              Title="{Binding Title}">
-    <StackLayout Spacing="20" Padding="15">
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" StyleId="importantLabel" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" StyleId="sharedLabel" FontSize="Small"/>
+    <ContentPage.Resources>
+        <StyleSheet Source="..\Styles\itemDetailPage.css"/>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Text:"/>
+        <Label Text="{Binding Item.Text}" StyleId="importantLabel"/>
+        <Label Text="Description:"/>
+        <Label Text="{Binding Item.Description}" StyleId="sharedLabel"/>
     </StackLayout>
 </ContentPage>
