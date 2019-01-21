@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyledApp-Xamarin-Sass.Android", "StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass.Android\StyledApp-Xamarin-Sass.Android.csproj", "{C1F00934-4F0E-4734-8BEA-8437C3E828DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyledApp-Xamarin-Sass", "StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass.csproj", "{4A16BC40-F537-4202-A2B0-6CD232EB98DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StyledApp-Xamarin-Sass", "StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass\StyledApp-Xamarin-Sass.csproj", "{4A16BC40-F537-4202-A2B0-6CD232EB98DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyledApp.Sass", "StyledApp.Sass\StyledApp.Sass.csproj", "{CB8F61E0-81B3-4330-969C-A16E5C27E9E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{4A16BC40-F537-4202-A2B0-6CD232EB98DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A16BC40-F537-4202-A2B0-6CD232EB98DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A16BC40-F537-4202-A2B0-6CD232EB98DF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CB8F61E0-81B3-4330-969C-A16E5C27E9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8F61E0-81B3-4330-969C-A16E5C27E9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8F61E0-81B3-4330-969C-A16E5C27E9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8F61E0-81B3-4330-969C-A16E5C27E9E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

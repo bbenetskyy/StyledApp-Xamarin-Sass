@@ -1,0 +1,16 @@
+﻿@import "Constants.scss";
+
+stackLayout {
+    padding: $smallPadding
+}
+
+#importantLabel {
+    font-size: 16;
+    font-style: bold;
+}
+
+#sharedLabel {
+    font-size: 13;
+    font-style: bold;
+    background-color: $primaryDark;
+}

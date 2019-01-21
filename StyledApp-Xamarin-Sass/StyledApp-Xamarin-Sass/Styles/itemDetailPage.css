@@ -1,19 +1,15 @@
-﻿stackLayout {
+stackLayout {
   padding: 15;
-  -xf-spacing: 20;
-}
+  -xf-spacing: 20; }
 
 stackLayout > label {
-  font-size: medium;
-}
+  font-size: medium; }
 
 #importantLabel {
   font-size: small;
-  font-style: bold;
-}
+  font-style: bold; }
 
 #sharedLabel {
-  background-color: #868686;
   font-size: small;
   font-style: bold;
-}
+  background-color: #868686; }
